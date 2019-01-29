@@ -1,0 +1,157 @@
+/* GENERAL */
+body
+{
+    font-family: 'Lato', sans-serif;
+    background: #fff;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+    color: #000;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+ul,ol
+{
+    list-style:none;
+}
+section
+{
+    padding: 45px 0 80px 0;
+}
+section .heading 
+{
+    text-align: center;
+    padding-bottom: 40px;        
+}
+section .heading h2
+{
+    text-transform: uppercase;
+}
+/* MENU */
+#logo{
+    display: block;
+    margin: auto;
+}
+.navbar
+{
+    background: #fff;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #000 !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #86343A !important;
+    background-color: #fff;
+}
+.underline li:hover{
+  padding-bottom: 2px;
+  border-bottom: #86343A 1px solid;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+    background-color: black;
+}
+.icon-bar
+{
+    background-color: #FFFF00 !important;
+}
+#home{
+    border-bottom: 2px 
+    border-color: blue;
+}
+/*ACCEUILLE*/
+.home{
+  margin-bottom: 25px;
+}
+IMG.accueil{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+}
+
+
+/* Contact */
+.mapgoogle{
+    margin: 55px;
+
+}
+.text2{
+    margin: 55px !important;
+    color: #86343A;
+    border-left: solid 3px #86343A;
+    padding-left: 45px
+}
+
+.contact {
+  margin: auto;
+  margin-bottom: 55px;
+  width: 50%;
+  border: 3px solid #86343A;
+  padding: 20px;
+}
+/*Footer*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 5px;
+  float: left;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background-color: #87353B;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+footer
+{
+	background: #333;
+	padding: 20px 0 40px;
+}
+footer .glyphicon
+{
+	font-size: 25px;
+	margin: 20px;
+	color: #6495ED;
+	height: 30px;
+}
+footer .glyphicon:hover
+{
+	font-size: 27px;
+
+}
+footer h5
+{
+	color: #fff;
+	font-weight: normal;
+}
+
